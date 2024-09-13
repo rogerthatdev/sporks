@@ -16,6 +16,7 @@ build/
 venv/
 env/
 .env/
+.venv/
 
 # IDE specific files
 .idea/
