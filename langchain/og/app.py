@@ -24,3 +24,7 @@ parser = StrOutputParser()
 result = model.invoke(messages)
 parsedResult = parser.invoke(result)
 print(parsedResult)
+
+# Chaining 
+chain = model | parser
+print(chain.invoke(messages))
